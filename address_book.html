@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Address Book</title>
+  </head>
+  <body>
+
+    <div class="container">
+
+      <h1>
+        Address Book
+      </h1>
+
+      <div class='well col-md-6'>
+        <form id="contact_new">
+          <div class="form-group">
+            <label for="contact_name">Name:</label>
+            <input type="text" id="contact_name">
+          </div>
+
+          <div class="form-group">
+            <label for="contact_phone">Phone:</label>
+            <input type="text" id="contact_phone">
+          </div>
+
+          <div class="form-group">
+            <label for="contact_email">Email:</label>
+            <input type="text" id="contact_email">
+          </div>
+
+          <button type="submit" class='btn btn success'>Add Contact</button>
+        </form>
+      </div>
+
+      <div id="contact_display" class="well col-md-6">
+        <ul id="contact_list">
+
+        </ul>
+      </div>
+
+      <div id="contact_card" class="well">
+        <h4>Name: <span id="card_name"></span></h4>
+        <h6>Phone: <span id="card_phone"></span></h6>
+        <h6>Email: <span id="card_email"></span></h6>
+      </div>
+
+    </div>
+  </body>
+</html>
