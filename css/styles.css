@@ -1,0 +1,11 @@
+.contact {
+  color: blue;
+}
+
+.contact:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.well {
+}

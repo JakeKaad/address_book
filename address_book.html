@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.2.js"></script>
+    <script src="js/scripts.js"></script>
     <title>Address Book</title>
   </head>
   <body>
@@ -11,7 +15,7 @@
         Address Book
       </h1>
 
-      <div class='well col-md-6'>
+      <div class='well col-md-7'>
         <form id="contact_new">
           <div class="form-group">
             <label for="contact_name">Name:</label>
@@ -32,17 +36,21 @@
         </form>
       </div>
 
-      <div id="contact_display" class="well col-md-6">
+      <div class='col-md-1'></div>
+      <div id="contact_card" class="well col-md-4 padded">
+        <h4>Name: <span id="card_name"></span></h4>
+        <h6>Phone: <span id="card_phone"></span></h6>
+        <h6>Email: <span id="card_email"></span></h6>
+      </div>
+
+
+      <div id="contact_display" class="well col-md-6 right-margin">
+        <h3>Contacts</h3>
         <ul id="contact_list">
 
         </ul>
       </div>
 
-      <div id="contact_card" class="well">
-        <h4>Name: <span id="card_name"></span></h4>
-        <h6>Phone: <span id="card_phone"></span></h6>
-        <h6>Email: <span id="card_email"></span></h6>
-      </div>
 
     </div>
   </body>
